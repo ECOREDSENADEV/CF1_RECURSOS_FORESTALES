@@ -102,14 +102,18 @@ figcaption
     background-image: url("../assets/curso/bg1.png") !important
     background-position: top
   &-2
-    background-image: url("../assets/curso/bg2.svg") !important
+    background-image: url("../assets/curso/bg4.svg") !important
     background-position: bottom
+    @media screen and (max-width: $bp-max-sm)
+      background-position: top
   &-3
     background-image: url("../assets/curso/bg3.svg") !important
     background-position: top
   &-4
     background-image: url("../assets/curso/bg4.svg") !important
     background-position: bottom
+    @media screen and (max-width: $bp-max-sm)
+      background-position: top
   &-5
     background-image: url("../assets/curso/bg5.svg") !important
     background-position: top
@@ -249,4 +253,9 @@ figcaption
     border: 2px solid #B5B5B5
   table
     table-layout: auto
+
+////////////SOMBRA/////////
+.shadow-app
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  border-radius: 8px; /* Opcional, para bordes redondeados */
   

@@ -45,7 +45,7 @@
       .px-4.p-md-5
         p.mb-5 Por otro lado, el aprovechamiento de los recursos forestales no maderables del bosque también se clasifica en función de la parte utilizada, las cuales pueden ser: raíces, hojas, corteza, etc. (FAO, 1997). Los tipos de recursos y partes vegetales son: 
 
-        .row
+        .row.justify-content-center
           .col-sm-6.col-lg-4.mb-4.mb-lg-0
             //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
             //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
@@ -204,26 +204,26 @@
     TabsB.color-acento-contenido.mb-5
       .py-4.py-md-5(titulo="Económico" :icono="require('@/assets/componentes/6.svg')")
         .row.align-items-center.p-4.justify-content-around
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             h4 Económico
             p Representan una fuente de ingresos para diversas comunidades, complementando actividades como la agricultura, producción de alimentos, artesanías y medicina tradicional. Además, impulsan las economías locales y generan empleos.
-          .col-md-4
+          .col-lg-4
             figure
               img(src='@/assets/curso/tema3/16.png', alt='Texto que describa la imagen')
       .py-4.py-md-5(titulo="Social" :icono="require('@/assets/componentes/7.svg')")
         .row.align-items-center.p-4.justify-content-around
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             h4 Social
             p Ofrecen alternativas para la subsistencia y seguridad alimentaria de comunidades rurales. Su uso está vinculado a saberes ancestrales y tradiciones culturales, lo que enriquece la bioculturalidad.
-          .col-md-4
+          .col-lg-4
             figure
               img(src='@/assets/curso/tema3/17.png', alt='Texto que describa la imagen')
       .py-4.py-md-5(titulo="Ecológico" :icono="require('@/assets/componentes/8.svg')")
         .row.align-items-center.p-4.justify-content-around
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             h4 Ecológico
             p Su conservación está asociada con la protección de la biodiversidad forestal. La gestión sostenible contribuye a la regulación climática, preservación de suelos y cuencas, y disminución de la presión sobre los bosques.
-          .col-md-4
+          .col-lg-4
             figure
               img(src='@/assets/curso/tema3/18.png', alt='Texto que describa la imagen')
     
@@ -306,14 +306,14 @@
         p.mb-5 Las plantas desempeñan un papel fundamental en la conservación de los ecosistemas y en la provisión de diversos servicios ecosistémicos. Además de captar la energía solar, son responsables de la producción de oxígeno y de muchos de los recursos que se utilizan en distintas regiones. Por ello, a continuación se presentan dos definiciones clave para comprender su proceso de producción, con la invitación a explorarlo con atención.
 
         .row.justify-content-center
-          .col-lg-6
+          .col-lg-6.mb-3.mb-lg-0
             .bg-color-4.tarjeta.h-100
               figure
                 img(src="@/assets/curso/tema3/27.png" data-aos="zoom-in")
               div.text-center.p-4
                 h4 Botánica
                 p Es la disciplina que estudia, describe y clasifica las plantas y su relación entre sí y con otros organismos. Forma parte de la biología. La biología estudia el reino Plantae, es decir, las plantas, e incluye también a los reinos Fungi (hongos) y Chromista. Todos estos grupos tienen en común que no poseen cloroplastos ni presentan movilidad propia.
-          .col-lg-6
+          .col-lg-6.mb-3.mb-lg-0
             .bg-color-4.tarjeta.h-100
               figure
                 img(src="@/assets/curso/tema3/28.png" data-aos="zoom-in")

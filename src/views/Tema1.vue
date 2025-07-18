@@ -106,42 +106,42 @@
     TabsB.color-acento-contenido.mb-5
       .py-4.py-md-5(titulo="Regulación climática" :icono="require('@/assets/componentes/1.svg')")
         .row.align-items-center.p-4.justify-content-around
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             h4 Regulación climática
             p Contribuye al control de las condiciones climáticas locales y globales mediante la captura de carbono, la regulación de la temperatura y la prevención de fenómenos de variabilidad climática.
-          .col-md-4
+          .col-lg-4
             figure
               img(src='@/assets/curso/tema1/11.png', alt='Texto que describa la imagen')
       .py-4.py-md-5(titulo="Control de erosión" :icono="require('@/assets/componentes/2.svg')")
         .row.align-items-center.p-4.justify-content-around
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             h4 Control de erosión
             p La cobertura vegetal permite estabilizar los suelos, reducir la erosión hídrica y disminuir la incidencia de fenómenos tanto naturales como de origen humano.
-          .col-md-4
+          .col-lg-4
             figure
               img(src='@/assets/curso/tema1/12.png', alt='Texto que describa la imagen')
       .py-4.py-md-5(titulo="Disponibilidad de hábitat" :icono="require('@/assets/componentes/3.svg')")
         .row.align-items-center.p-4.justify-content-around
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             h4 Disponibilidad de hábitat
             p Favorece la conservación de nichos ecológicos, garantiza la oferta de alimento para diversas especies y fortalece la conectividad ecológica entre ecosistemas.
-          .col-md-4
+          .col-lg-4
             figure
               img(src='@/assets/curso/tema1/13.png', alt='Texto que describa la imagen')
       .py-4.py-md-5(titulo="Formación de suelos" :icono="require('@/assets/componentes/4.svg')")
         .row.align-items-center.p-4.justify-content-around
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             h4 Formación de suelos
             p Incluye el aporte de materia orgánica, el incremento de la actividad biológica y la mejora en la fertilidad del suelo.
-          .col-md-4
+          .col-lg-4
             figure
               img(src='@/assets/curso/tema1/14.png', alt='Texto que describa la imagen')
       .py-4.py-md-5(titulo="Calidad y regulación hídrica" :icono="require('@/assets/componentes/5.svg')")
         .row.align-items-center.p-4.justify-content-around
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             h4 Calidad y regulación hídrica
             p Participa en la regulación del ciclo hidrológico, el control de los flujos de agua y la preservación de las rondas hídricas.
-          .col-md-4
+          .col-lg-4
             figure
               img(src='@/assets/curso/tema1/15.png', alt='Texto que describa la imagen')
     

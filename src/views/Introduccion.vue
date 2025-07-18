@@ -29,7 +29,7 @@
     .bg-full-width.bg-color-2.mb-5
       .px-4.px-md-5.py-4
         .row.align-items-center
-          .col-lg-auto
+          .col-lg-auto.mb-3.mg-lg-0
             img(src="@/assets/curso/intro/3.svg", style="max-width: 90px").mx-auto
           .col-lg.text-white
             p.mb-0 Este proceso formativo permite desarrollar habilidades que fomentan la participación activa en proyectos de biocomercio, conservación del entorno natural y construcción de cadenas productivas que agreguen valor a productos tradicionales. En consecuencia, se abren oportunidades para la innovación, el emprendimiento y el fortalecimiento de la identidad cultural en armonía con la protección de los ecosistemas.
