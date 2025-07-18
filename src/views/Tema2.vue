@@ -52,7 +52,7 @@
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
         img.titulo-con-imagen__imagen(src="@/assets/componentes/9.png")
-        h3.titulo-con-imagen__texto Clasificación según interés científico
+        h3.titulo-con-imagen__texto.text-white Clasificación según interés científico
     
     p.mb-4 A continuación, se presenta la clasificación de la flora silvestre según el interés científico:
 

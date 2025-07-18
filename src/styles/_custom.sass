@@ -57,12 +57,20 @@ figcaption
     background-color: #741234
   &-8
     background-color: #536643
-  //&-9
-    background-color: #EAECF0
-  //&-10
-    color: #35ACA9
-  //&-11
-    background-color: #F4F5F8
+  &-9
+    background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(235, 218, 213, 1) 40%, rgba(235, 218, 213, 1) 60%, rgba(255, 255, 255, 1) 100%);
+  &-10
+    background-color: #14444B
+  &-11
+    color: #A8CF89
+  &-12
+    background-color: #DBEBCF
+    &:hover
+      background-color: #EBDAD5
+  &-13
+    background-color: #A71B4C
+  &-14
+    background-color: #FBFBFB
   &-info
     background-color: #E8EEFD
   &-sintesis
@@ -98,6 +106,12 @@ figcaption
     background-position: bottom
   &-3
     background-image: url("../assets/curso/bg3.svg") !important
+    background-position: top
+  &-4
+    background-image: url("../assets/curso/bg4.svg") !important
+    background-position: bottom
+  &-5
+    background-image: url("../assets/curso/bg5.svg") !important
     background-position: top
   //&-3
     background-image: url("../assets/curso/bg3.svg") !important
@@ -226,4 +240,13 @@ figcaption
 
       @media (min-width: 769px)
         width: 80%
+  
+///////////////TABLAS/////////////////// 
+.pst
+  table td
+    text-align: start !important
+  th, td, table thead th, .tabla-a th 
+    border: 2px solid #B5B5B5
+  table
+    table-layout: auto
   
