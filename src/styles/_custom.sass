@@ -3,12 +3,12 @@
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     top: 20%
-    right: 10%
+    right: 77%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
     top: 51%
-    right: 30%
+    right: 10%
 
 @keyframes float1
   0%
@@ -28,5 +28,202 @@
 .banner-interno__titulo__icono i
   color: $color-primario
 
+.banner-interno__fondo
+  background-image: url("../assets/curso/banner_interno.png") !important
+.banner-principal .tarjeta
+  @media screen and (max-width: $bp-max-sm)
+    background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
+  @media screen and (max-width: $bp-max-xs)
+    background-image: url("../assets/curso/portada/fondo-banner-principal-xs.png") !important
+
+
 figcaption
   font-weight: normal
+
+.bg-color
+  &-1
+    background-color: #A8CF89!important
+  &-2
+    background-color: #1D636D !important
+  &-3
+    background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(255, 245, 204, 1) 30%, rgba(255, 245, 204, 1) 50%, rgba(255, 255, 255, 1) 100%)
+  &-4
+    background-color: #EBDAD5
+  &-5
+    background-color: #66514B !important
+  &-6
+    background-color: #DBEBCF
+  &-7
+    background-color: #741234
+  &-8
+    background-color: #536643
+  //&-9
+    background-color: #EAECF0
+  //&-10
+    color: #35ACA9
+  //&-11
+    background-color: #F4F5F8
+  &-info
+    background-color: #E8EEFD
+  &-sintesis
+    background-color: #F6F6F6
+  &-white
+    background-color: #fff
+
+
+
+// Full Width Background
+.bg-full-width
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+.bg-full-width-2
+  background-size: contain
+  background-repeat: no-repeat
+  margin-inline: -4.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+
+.bg-fondo
+  &-1
+    background-image: url("../assets/curso/bg1.png") !important
+    background-position: top
+  &-2
+    background-image: url("../assets/curso/bg2.svg") !important
+    background-position: bottom
+  &-3
+    background-image: url("../assets/curso/bg3.svg") !important
+    background-position: top
+  //&-3
+    background-image: url("../assets/curso/bg3.svg") !important
+    background-position: center
+    @media screen and (max-width: $bp-max-sm)
+      background-image: url("../assets/curso/bg4.svg") !important
+      background-position: center
+      background-repeat: no-repeat
+      background-size: cover
+    @media screen and (max-width: $bp-max-xs)
+      background-image: none !important
+      background-color: #ffff
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+      padding: 20px;
+      border-radius: 8px; /* Opcional, para bordes redondeados */
+
+  //&-slider
+    background-image: url("../assets/bg/bg-slider.svg") !important
+    background-position: bottom
+
+//////////////CUSTOM TABS-A/////////////
+.tabs-a.color-acento-botones .tabs-a__tab__selected 
+  background-color: #FD951F
+  
+.tabs-a__tab
+  background-color: #A4C0C4
+.tarjeta.color-acento-botones--borde
+  background-color: #DBEBCF
+  border: solid 4px #DBEBCF
+
+//////////////CUSTON SLYDER////////
+.slyder-a__bullets__item 
+  background-color: #EEDFDB
+  border: #EEDFDB
+.slyder-a__bullets__item--active
+  background-color: #CEA499
+.slyder-a__btn--atrs, .slyder-a__btn--sigt
+  background-color: #FD951F
+
+/////////CUSTOM TABS-B///////////////
+.tabs-b__content-item, .tabs-b__tab.tabs-b__tab--active
+  background-color: #E7EEEF
+.tabs-b__tab
+  background-color: #D1DFE1
+
+/////////////ACORDION/////////////
+.acordion__accion__btn--a
+  background-color: #FD951F!important
+.acordion__activo
+  background-color: #DBEBCF!important
+.acordion_titulo
+  color: #fff !important
+.acordion__titulo 
+  h3
+    color: $color-sistema-texto  !important
+.acordion__activo
+  .acordion__titulo 
+    h3
+      color: $color-sistema-texto !important
+    
+///////// Card hover ////////////////////////
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+      background-color: #EBDAD5 !important
+      h4
+        color: $color-sistema-texto !important
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: rgba(255, 247, 230, 1) 
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+
+//CLASES TITULOS//
+.titulo-con-imagen
+  display: flex
+  align-items: center
+  position: relative
+.titulo-con-imagen__fondo
+  background-color: #A71B4C
+  border-radius: 10px
+  padding: 10px 20px
+  display: inline-flex
+  align-items: center
+.titulo-con-imagen__imagen
+  position: absolute
+  left: -20px
+  width: 50px
+  bottom: 0
+.titulo-con-imagen__texto
+  margin: 0
+  padding-left: 20px
+
+//////////CUSTOM BOTONES SLYDER/////////
+.slyder-f__btn
+  height: 35px
+  width: 35px
+  max-width: 35px
+  background-color: $color-acento-botones
+  border-radius: 50%
+  padding: 0 !important
+  margin: 0 auto
+  .fa-chevron-left
+    font-size: 20px
+  .fa-chevron-right
+    font-size: 20px
+  
+.slyder-f
+    align-items: center
+
+    .slyder-f__main
+      width: 70%
+
+      @media (min-width: 769px)
+        width: 80%
+  
